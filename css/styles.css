@@ -1,0 +1,194 @@
+/*CSS Document*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#header div ul li {
+    float: left;
+    list-style: none;
+}
+
+body {
+    background-color: #8ab88a;
+}
+
+#nav {
+    margin-left:25%;
+}
+
+#nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #03AC13;
+    width: 160px;
+    line-height: 60px;
+    height: 60px;
+    transition: 0.5s background-color;
+}
+
+#nav ul li a:hover {
+    background-color: #FFF700;
+    box-shadow: inset 0px 0px 5px 2px #000;
+}
+
+#logo {
+    padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+    background-color: #228B22;
+    z-index: -1;
+}
+
+#active a {
+    border-bottom: 3px solid black;
+}
+
+
+#nav ul ul {
+    position: absolute;
+    width: 200px;
+    z-index: 99;
+}
+
+#nav ul ul li {
+    display: none;
+}
+
+#nav ul li:hover ul li {
+    display: block;
+}
+
+#nav ul ul li a {
+    border-bottom: 2px solid green;
+    background-color: #74B72E;
+    display: inline-block;
+    padding: 0px;
+    width: 160px;
+    text-align: center;
+}
+
+#slider img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+/*bag*/
+
+#bag-img {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#smol-img {
+    position: absolute;
+    width: 450px;
+    margin-top: -330px;
+    margin-left: 550px;
+}
+
+#smol-img a img {
+    margin: 12px;
+    opacity: .5;
+}
+
+#smol-img a img:hover {
+    opacity: 1;
+}
+
+
+/*Chair*/
+
+#chair-img {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#smol-img {
+    position: absolute;
+    width: 450px;
+    margin-top: -610px;
+    margin-left: 550px;
+}
+
+#smol-img a img {
+    margin: 12px;
+    opacity: .5;
+}
+
+#smol-img a img:hover {
+    opacity: 1;
+}
+
+
+/*Handmaker items*/
+
+#hand-img {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#smol-img {
+    position: absolute;
+    width: 450px;
+    margin-top: -610px;
+    margin-left: 550px;
+}
+
+#smol-img a img {
+    margin: 12px;
+    opacity: .5;
+}
+
+#smol-img a img:hover {
+    opacity: 1;
+}
+
+
+/*christmastree*/
+
+#christmas-img {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#smol-img {
+    position: absolute;
+    width: 450px;
+    margin-top: -610px;
+    margin-left: 550px;
+}
+
+#smol-img a img {
+    margin: 12px;
+    opacity: .5;
+}
+
+#smol-img a img:hover {
+    opacity: 1;
+}
+
+
+/*slider*/
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: black;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

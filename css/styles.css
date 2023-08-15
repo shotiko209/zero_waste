@@ -216,16 +216,6 @@ body {
     opacity: 1;
 }
 /*us*/
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
- ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: black;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+#us-img {
+    position:center;
 }

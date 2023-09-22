@@ -200,18 +200,18 @@ body {
     margin-left: 100px;
 }
 
-#smol-img {
+#pos-img {
     position: absolute;
     width: 450px;
     margin-top: -610px;
     margin-left: 550px;
 }
 
-#smol-img a img {
+#pos-img a img {
     margin: 12px;
     opacity: .5;
 }
 
-#smol-img a img:hover {
+#pos-img a img:hover {
     opacity: 1;
 }

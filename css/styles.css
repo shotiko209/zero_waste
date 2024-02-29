@@ -16,7 +16,7 @@ body {
 }
 
 #nav {
-    margin-left:16%;
+    margin-left:30%;
 }
 
 #nav ul li a {
@@ -25,7 +25,7 @@ body {
     text-align: center;
     color: #fff;
     background-color: #03AC13;
-    width: 160px;
+    width: 250px;
     line-height: 60px;
     height: 60px;
     transition: 0.5s background-color;
@@ -37,12 +37,13 @@ body {
 }
 
 #logo {
-    padding-bottom: 5px;
+    padding-bottom: 0.02px;
     position: absolute;
     width: 100%;
     background-color: #228B22;
     z-index: -1;
 }
+
 
 #active a {
     border-bottom: 3px solid black;
@@ -67,13 +68,14 @@ body {
     border-bottom: 2px solid green;
     background-color: #74B72E;
     display: inline-block;
-    padding: 0px;
-    width: 160px;
+    width: 250px;
+    line-height: 60px;
+    height: 60px;
     text-align: center;
 }
 
 #slider img {
-    margin-top:4%;
+    margin-top:2%;
     width: 80%;
     margin-left:10%;
 }
